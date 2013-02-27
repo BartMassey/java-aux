@@ -9,17 +9,17 @@
 import aux.*;
 import DES.*;
 
-class CompInt implements Comparable {
+class CompInt implements aux.Comparable {
     private int i;
 
     CompInt(int i) {
 	this.i = i;
     }
     
-    public boolean notLessThan(Comparable j) {
+    public boolean notLessThan(aux.Comparable j) {
 	return i >= ((CompInt) j).i;
     }
-    public boolean equals(Comparable j) {
+    public boolean equals(aux.Comparable j) {
 	return i == ((CompInt) j).i;
     }
 
