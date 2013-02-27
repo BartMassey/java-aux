@@ -6,7 +6,7 @@
  * distribution of this software for license terms.
  */
 
-import tokenizer.*;
+import aux.tokenizer.*;
 
 public class TokenizerTest {
     public static void main(String args[]) {
